@@ -2,7 +2,7 @@
 %define		_status		alpha
 
 Summary:	%{_modname} - POST and GET validation extension
-#Summary(pl):	%{_modname} - 
+Summary(pl):	%{_modname} - rozszerzenie kontroluj±ce poprawno¶æ POST i GET
 Name:		php-pecl-%{_modname}
 Version:	0.1
 Release:	1
@@ -29,9 +29,13 @@ http://www.xavier-noguer.com/valkyrie.html for details.
 
 This extension has in PEAR status: %{_status}.
 
-#%description -l pl
-#
-#To rozszerzenie ma w PEAR status: %{_status}.
+%description -l pl
+To rozszerzenie u³atwia sprawdzanie poprawno¶ci parametrów POST i GET
+poprzez u¿ycie pojedynczego pliku XML do deklaracji wszystkich
+parametrów, które maj± otrzymaæ wszystkie pliki z aplikacji. Szczegó³y
+mo¿na znale¼æ pod adresem http://www.xavier-noguer.com/valkyrie.html .
+
+To rozszerzenie ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
