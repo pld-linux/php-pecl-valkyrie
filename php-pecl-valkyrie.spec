@@ -10,8 +10,9 @@ License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	787621389178eec3d70ee61f22e22722
-URL:		http://pecl.php.net/package/Modname/
+URL:		http://pecl.php.net/package/valkyrie/
 BuildRequires:	libtool
+BuildRequires:	libxml2-devel
 BuildRequires:	php-devel
 Requires:	php-common
 Obsoletes:	php-pear-%{_modname}
