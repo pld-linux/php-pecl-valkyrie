@@ -27,7 +27,7 @@ through the use of a single XML file for declaring all parameters to
 be received by all files of an application. See
 http://www.xavier-noguer.com/valkyrie.html for details.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 To rozszerzenie u³atwia sprawdzanie poprawno¶ci parametrów POST i GET
@@ -35,7 +35,7 @@ poprzez u¿ycie pojedynczego pliku XML do deklaracji wszystkich
 parametrów, które maj± otrzymaæ wszystkie pliki z aplikacji. Szczegó³y
 mo¿na znale¼æ pod adresem http://www.xavier-noguer.com/valkyrie.html .
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
