@@ -3,7 +3,7 @@
 %define		_modname	valkyrie
 %define		_status		alpha
 Summary:	%{_modname} - POST and GET validation extension
-Summary(pl.UTF-8):   %{_modname} - rozszerzenie kontrolujące poprawność POST i GET
+Summary(pl.UTF-8):	%{_modname} - rozszerzenie kontrolujące poprawność POST i GET
 Name:		php-pecl-%{_modname}
 Version:	0.1
 Release:	1.1
