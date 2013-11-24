@@ -13,11 +13,12 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 # Source0-md5:	787621389178eec3d70ee61f22e22722
 URL:		http://pecl.php.net/package/valkyrie/
-BuildRequires:	libxml2-devel
 BuildRequires:	%{php_name}-devel >= 3:5.0.0
+BuildRequires:	libxml2-devel
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
-Requires:	php-common >= 4:5.0.4
+Requires:	php(core) >= 5.0.4
+Provides:	php(%{modname}) = %{version}
 Obsoletes:	php-pear-%{modname}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -33,7 +34,8 @@ In PECL status of this package is: %{status}.
 To rozszerzenie ułatwia sprawdzanie poprawności parametrów POST i GET
 poprzez użycie pojedynczego pliku XML do deklaracji wszystkich
 parametrów, które mają otrzymać wszystkie pliki z aplikacji. Szczegóły
-można znaleźć pod adresem <http://www.xavier-noguer.com/valkyrie.html>.
+można znaleźć pod adresem
+<http://www.xavier-noguer.com/valkyrie.html>.
 
 To rozszerzenie ma w PECL status: %{status}.
 
